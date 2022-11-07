@@ -97,7 +97,7 @@ public class TestCase01 {
     }
 
     @Test(priority = 13)
-    public void clickToContiuneButton() {
+    public void clickToContinueButton() {
         accountConfirmPage.continueButton.click();
     }
 
