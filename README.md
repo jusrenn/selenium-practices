@@ -20,3 +20,19 @@
 <li> Click 'Delete Account' button</li>
 <li> Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button</li>
 </ul>
+
+
+<h2>Test Case 2: Login User with correct email and password</h2>
+<ul>
+<li>Launch browser</li>
+<li>Navigate to url 'http://automationexercise.com'</li>
+<li>Verify that home page is visible successfully</li>
+<li>Click on 'Signup / Login' button</li>
+<li>Verify 'Login to your account' is visible</li>
+<li>Enter correct email address and password</li>
+<li>Click 'login' button</li>
+<li>Verify that 'Logged in as username' is visible</li>
+<li>Click 'Delete Account' button</li>
+<li>Verify that 'ACCOUNT DELETED!' is visible</li>
+</ul>
+
