@@ -7,7 +7,7 @@ import utilities.Driver;
 
 import java.util.List;
 
-public class TestCase01_ProfilePage {
+public class ProfilePage {
 
     @FindBy(xpath = "//h2[@class=\"title text-center\"]//b")
     public List<WebElement> profileH2Texts;
@@ -63,7 +63,7 @@ public class TestCase01_ProfilePage {
     @FindBy(id = "mobile_number")
     public WebElement mobileNumber;
 
-    public TestCase01_ProfilePage() {
+    public ProfilePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 }

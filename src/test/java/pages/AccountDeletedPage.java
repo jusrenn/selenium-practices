@@ -5,15 +5,15 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class TestCase01_AccountConfirmPage {
+public class AccountDeletedPage {
 
     @FindBy(css = "h2>b")
-    public WebElement accountConfirmText;
+    public WebElement accountDeletedText;
 
     @FindBy(xpath = "//a[@data-qa=\"continue-button\"]")
     public WebElement continueButton;
 
-    public TestCase01_AccountConfirmPage() {
+    public AccountDeletedPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 }

@@ -7,12 +7,12 @@ import utilities.Driver;
 
 import java.util.List;
 
-public class TestCase01_HomePage {
+public class HomePage {
 
     @FindBy(css = ".navbar-nav>li>a")
     public List<WebElement> menuLinks;
 
-    public TestCase01_HomePage() {
+    public HomePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 }
