@@ -1,5 +1,5 @@
 <h1> Selenium Practices</h1>
-<h2>Test Case 1: Register User</h2>
+<h2>Test Case 01: Register User</h2>
 <ul>
 <li> Launch browser</li>
 <li> Navigate to url 'http://automationexercise.com'</li>
